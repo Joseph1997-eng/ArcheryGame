@@ -35,29 +35,29 @@ var bestScore = 0;
 var runCount = 0;
         
 var startSound = new Audio();
-startSound.src = "https://"+asrcd+".000webhostapp.com/snd/whistlestart.ogg";
+startSound.src = "ting-sound-197759.mp3";
 startSound.volume = 0.6;
         
 var shootSound = new Audio();
-shootSound.src = "https://"+asrcd+".000webhostapp.com/snd/arrow.ogg";
+shootSound.src = "arrow-impact-87260.mp3";
         
 var hitSound = new Audio();
-hitSound.src = "https://"+asrcd+".000webhostapp.com/snd/arrowhit.ogg";
+hitSound.src = "arrow-hitting-target-83810.mp3";
         
 var bgSound = new Audio();
-bgSound.src = "https://"+asrcd+".000webhostapp.com/snd/bg.mp3"//"music2.ogg";
+bgSound.src = "background-music-224633.mp3";
 bgSound.loop = true;
 //bgSound.volume = 0.8;
         
 var endSound = new Audio();
-endSound.src = "https://"+asrcd+".000webhostapp.com/snd/whistleover.ogg";
+endSound.src = "shooting-sound-fx-159024.mp3";
 endSound.volume = 0.6;
         
 var successSound = new Audio();
-successSound.src = "https://"+asrcd+".000webhostapp.com/snd/bell.ogg";
+successSound.src = "successed-295058.mp3";
         
 var highScoreSound = new Audio();
-highScoreSound.src = "https://"+asrcd+".000webhostapp.com/snd/crowdcheer.ogg";
+highScoreSound.src = "shooting-sound-fx-159024.mp3";
         
 
 function loadGame(){
